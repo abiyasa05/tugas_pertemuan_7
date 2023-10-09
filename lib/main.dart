@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Taman Rekreasi Jatim Park 1',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -60,13 +60,6 @@ class MyApp extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       child: Column(
         children: [
-          Image.asset(
-            'assets/jatim_park1.png',
-            width: 300,
-            height: 200,
-            fit: BoxFit.cover,
-          ),
-          const SizedBox(height: 12),
           const Text(
             'Batu, Malang, adalah tujuan wisata yang menarik di Indonesia. Terletak di Jawa Timur,'
             'Batu dikenal dengan pemandangan alam yang indah dan beragam atraksi.'
@@ -97,8 +90,14 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: Column(
+        body: ListView(
           children: [
+            Image.asset(
+              'assets/jatim_park1.png',
+              width: 300,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             textSection,
             buttonSection,

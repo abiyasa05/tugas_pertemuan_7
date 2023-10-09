@@ -176,3 +176,57 @@ Output:
 <p align="center">
   <img src="img/praktikum_3/run.png" alt="Alt text">
 </p>
+
+# Praktikum 4: Implementasi image section
+
+Selesaikan langkah-langkah praktikum berikut ini dengan melanjutkan dari praktikum sebelumnya.
+
+<h3>Langkah 1: Siapkan aset gambar<h3>
+
+Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
+
+<p align="center">
+  <img src="img/praktikum_4/1.png" alt="Alt text">
+</p>
+
+Contoh nama file gambar di atas adalah lake.jpg
+
+Jawab:
+
+<p align="center">
+  <img src="img/praktikum_4/2.png" alt="Alt text">
+</p>
+
+<h3>Langkah 2: Tambahkan gambar ke body<h3>
+
+Tambahkan aset gambar ke dalam body seperti berikut:
+
+<p align="center">
+  <img src="img/praktikum_4/3.png" alt="Alt text">
+</p>
+
+BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin tetapi menutupi seluruh kotak rendernya.
+
+<p align="center">
+  <img src="img/praktikum_4/4.png" alt="Alt text">
+</p>
+
+<h3>Langkah 3: Terakhir, ubah menjadi ListView<h3>
+
+Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+
+<p align="center">
+  <img src="img/praktikum_4/5.png" alt="Alt text">
+</p>
+
+Jawab:
+
+<p align="center">
+  <img src="img/praktikum_4/6.png" alt="Alt text">
+</p>
+
+Output:
+
+<p align="center">
+  <img src="img/praktikum_4/run.png" alt="Alt text">
+</p>
